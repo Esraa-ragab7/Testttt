@@ -57,7 +57,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         guard let emailAddress = cell.EmailLable.text, let password = cell.passwordLable.text else {
           
             return
-            return
         }
         
         if(emailAddress.isEmpty == true || password.isEmpty == true){
@@ -101,13 +100,11 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
                 guard let userId = result?.user.uid, let userName = cell.userNameLable.text else {
                     return
                 }
+                let user = result?.user
                 
-                let reference = Database.database().reference()
-                let user = reference.child("users").child(userId)
-                let dataArray:[String: Any] = ["username": userName]
-                user.setValue(dataArray)
-                
-                
+                let changeRequest = user!.createProfileChangeRequest()
+                changeRequest.displayName = userName
+                changeRequest.commitChanges(completion: nil)
             }
         }
         
@@ -131,14 +128,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return collectionView.frame.size
-    }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "secondStoryboard" {
-            let destination = segue.destination as! secondViewController
-           // destination.delgate = self
-            
-        }
     }
     
 }

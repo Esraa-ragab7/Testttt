@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		06C68F2AC24136017F6744CD /* Pods_myTaskLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA033F23D946E3F5383ED2A /* Pods_myTaskLogin.framework */; };
 		6155B5CD23C09B05005BB480 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155B5CC23C09B05005BB480 /* secondViewController.swift */; };
-		6155B5CF23C0B1BE005BB480 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155B5CE23C0B1BE005BB480 /* thirdViewController.swift */; };
+		6155B5CF23C0B1BE005BB480 /* MenuItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155B5CE23C0B1BE005BB480 /* MenuItemsViewController.swift */; };
 		61D7513823C0224A008B6930 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D7513723C0224A008B6930 /* AppDelegate.swift */; };
 		61D7513A23C0224A008B6930 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D7513923C0224A008B6930 /* ViewController.swift */; };
 		61D7513D23C0224A008B6930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61D7513B23C0224A008B6930 /* Main.storyboard */; };
@@ -17,12 +17,16 @@
 		61D7514223C0224A008B6930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61D7514023C0224A008B6930 /* LaunchScreen.storyboard */; };
 		61D7514C23C02859008B6930 /* formCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D7514B23C02859008B6930 /* formCell.swift */; };
 		61D7514E23C03915008B6930 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61D7514D23C03915008B6930 /* GoogleService-Info.plist */; };
+		F2393D5C23C116B100C68FD4 /* userInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2393D5B23C116B100C68FD4 /* userInfoViewController.swift */; };
+		F2393D5E23C125A400C68FD4 /* GoogleMapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2393D5D23C125A400C68FD4 /* GoogleMapsViewController.swift */; };
+		F2393D6023C12A3600C68FD4 /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2393D5F23C12A3500C68FD4 /* MapKitViewController.swift */; };
+		F2393D6223C12A3B00C68FD4 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2393D6123C12A3B00C68FD4 /* DroppablePin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		541C3DA41D9955BFDAA9730B /* Pods-myTaskLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myTaskLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myTaskLogin/Pods-myTaskLogin.debug.xcconfig"; sourceTree = "<group>"; };
 		6155B5CC23C09B05005BB480 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
-		6155B5CE23C0B1BE005BB480 /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
+		6155B5CE23C0B1BE005BB480 /* MenuItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemsViewController.swift; sourceTree = "<group>"; };
 		61D7513423C0224A008B6930 /* myTaskLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myTaskLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61D7513723C0224A008B6930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61D7513923C0224A008B6930 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +38,10 @@
 		61D7514D23C03915008B6930 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BAA033F23D946E3F5383ED2A /* Pods_myTaskLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myTaskLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9171DD284FBFEAE5818DDA /* Pods-myTaskLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myTaskLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-myTaskLogin/Pods-myTaskLogin.release.xcconfig"; sourceTree = "<group>"; };
+		F2393D5B23C116B100C68FD4 /* userInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userInfoViewController.swift; sourceTree = "<group>"; };
+		F2393D5D23C125A400C68FD4 /* GoogleMapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsViewController.swift; sourceTree = "<group>"; };
+		F2393D5F23C12A3500C68FD4 /* MapKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
+		F2393D6123C12A3B00C68FD4 /* DroppablePin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,15 +78,19 @@
 			isa = PBXGroup;
 			children = (
 				61D7513723C0224A008B6930 /* AppDelegate.swift */,
+				F2393D5B23C116B100C68FD4 /* userInfoViewController.swift */,
 				61D7514B23C02859008B6930 /* formCell.swift */,
 				61D7513923C0224A008B6930 /* ViewController.swift */,
 				6155B5CC23C09B05005BB480 /* secondViewController.swift */,
-				6155B5CE23C0B1BE005BB480 /* thirdViewController.swift */,
+				6155B5CE23C0B1BE005BB480 /* MenuItemsViewController.swift */,
 				61D7513B23C0224A008B6930 /* Main.storyboard */,
 				61D7513E23C0224A008B6930 /* Assets.xcassets */,
 				61D7514023C0224A008B6930 /* LaunchScreen.storyboard */,
 				61D7514323C0224A008B6930 /* Info.plist */,
 				61D7514D23C03915008B6930 /* GoogleService-Info.plist */,
+				F2393D5D23C125A400C68FD4 /* GoogleMapsViewController.swift */,
+				F2393D5F23C12A3500C68FD4 /* MapKitViewController.swift */,
+				F2393D6123C12A3B00C68FD4 /* DroppablePin.swift */,
 			);
 			path = myTaskLogin;
 			sourceTree = "<group>";
@@ -112,6 +124,7 @@
 				61D7513123C0224A008B6930 /* Frameworks */,
 				61D7513223C0224A008B6930 /* Resources */,
 				F5134AB27B365A55E31E7BFA /* [CP] Embed Pods Frameworks */,
+				1F942E8D080BDC52B838A49E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,6 +184,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1F942E8D080BDC52B838A49E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-myTaskLogin/Pods-myTaskLogin-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-myTaskLogin/Pods-myTaskLogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5BC8DB7D4B80CEFA15F61752 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -195,7 +226,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-myTaskLogin/Pods-myTaskLogin-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-myTaskLogin/Pods-myTaskLogin-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
@@ -212,7 +243,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myTaskLogin/Pods-myTaskLogin-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-myTaskLogin/Pods-myTaskLogin-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -224,9 +255,13 @@
 			files = (
 				6155B5CD23C09B05005BB480 /* secondViewController.swift in Sources */,
 				61D7514C23C02859008B6930 /* formCell.swift in Sources */,
-				6155B5CF23C0B1BE005BB480 /* thirdViewController.swift in Sources */,
+				F2393D6023C12A3600C68FD4 /* MapKitViewController.swift in Sources */,
+				6155B5CF23C0B1BE005BB480 /* MenuItemsViewController.swift in Sources */,
+				F2393D6223C12A3B00C68FD4 /* DroppablePin.swift in Sources */,
 				61D7513A23C0224A008B6930 /* ViewController.swift in Sources */,
+				F2393D5E23C125A400C68FD4 /* GoogleMapsViewController.swift in Sources */,
 				61D7513823C0224A008B6930 /* AppDelegate.swift in Sources */,
+				F2393D5C23C116B100C68FD4 /* userInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
